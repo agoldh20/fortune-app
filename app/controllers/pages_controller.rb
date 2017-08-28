@@ -13,6 +13,7 @@ class PagesController < ApplicationController
 
   def lotto_action
     @title = "Winning numbers???"
+    
     @winning_numbers = []
     
    
@@ -21,8 +22,6 @@ class PagesController < ApplicationController
     end 
     render 'lotto_page.html.erb'
     
-
-    # @winning_numbers = winning_numbers
   end
   
 end
